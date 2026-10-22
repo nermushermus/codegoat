@@ -70,6 +70,7 @@ module "instance" {
     git_org              = "try-bridgecrew"
     git_repo             = "codegoat"
     yor_trace            = "a5ffaaa3-e604-4f84-934e-ff1877ca74e0"
+    IaC_Exception1       = "True"
   }
 }
 
@@ -86,5 +87,6 @@ resource "aws_ebs_volume" "i" {
     git_org              = "try-bridgecrew"
     git_repo             = "codegoat"
     yor_trace            = "1c06a9c0-4d81-4137-8d86-24cf1260ca17"
+    IaC_Exception1       = "True"
   }
 }

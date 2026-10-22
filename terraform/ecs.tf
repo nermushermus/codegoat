@@ -37,5 +37,6 @@ resource "aws_ecs_task_definition" "service" {
     git_org              = "try-bridgecrew"
     git_repo             = "codegoat"
     yor_trace            = "54731c2c-d768-458c-8625-5e1fc91901ac"
+    IaC_Exception1       = "True"
   }
 }
